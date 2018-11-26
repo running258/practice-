@@ -11,14 +11,20 @@ from browserDefine import browserConf
 # browserConf().openBrowser()
 
 class LoginPage(browserConf):
-    userName = "//input[@id='viewhigh-login-username-input']"
+
+    def __init__(self):
+        self.browser = webdriver.Chrome()
+
     def LoginPage_UserName(self):
-        pass
+        self.browser.find_element_by_xpath("//input[@id='viewhigh-login-username-input']")
+        return self
+    def LoginPage_Password(self):
+        return self
 
 
 
-print(LoginPage().userName)
+print(LoginPage().LoginPage_UserName())
+
+LoginPage().LoginPage_UserName()
 
 
-
-browser.element.action
