@@ -1,21 +1,18 @@
-from selenium import webdriver
-from browserDefine import browserConf
+from types import MethodType
+class Student(object):
+    pass
+
+    
 
 
+s = Student()
+s.name = 'nametest'
+print(s.name)
 
 
-    # class LoginEle(browserConf):
-    #     pass
+def set_age(self,age):
+    self.age = age
 
-
-# browserConf().openBrowser()
-
-class LoginPage(browserConf):
-    userName = "//input[@id='viewhigh-login-username-input']"
-    def LoginPage_UserName(self):
-        pass
-
-
-
-print(LoginPage().userName)
-
+s.set_age = MethodType(set_age,s)
+s.set_age(25)
+print(s.age)

@@ -7,6 +7,6 @@ class browserConf(object):
         browser = webdriver.Chrome()
         browser.get('https://vhsupply.test.viewchain.net/')
         browser.maximize_window()
-
+        browser.implicitly_wait(5)
 
 
