@@ -1,0 +1,6 @@
+supply_loginPage:
+    userName : //input[@id='viewhigh-login-username-input']
+    password : //input[@id='viewhigh-login-pwd-input']
+    loginButton : //button[@id='viewhigh-login-login-btn']
+
+    

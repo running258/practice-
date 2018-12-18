@@ -1,7 +1,14 @@
 {
-    "python.pythonPath": "C:\\Python36\\python.exe",
-    "python.unitTest.pyTestArgs": [],
-    "python.unitTest.unittestEnabled": false,
-    "python.unitTest.nosetestsEnabled": false,
-    "python.unitTest.pyTestEnabled": true
+  "python.pythonPath": "C:\\Python36\\python.exe",
+  "python.unitTest.pyTestArgs": [],
+  "python.unitTest.unittestEnabled": false,
+  "python.unitTest.nosetestsEnabled": false,
+  "python.unitTest.pyTestEnabled": true,
+  "files.exclude": {
+    "__error": "Not found",
+    "ele\\supply\\__pycache__": true,
+    "conf\\__pycache__": true,
+    ".pytest_cache": true,
+    "__pycache__": true
+  }
 }

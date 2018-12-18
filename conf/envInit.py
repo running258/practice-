@@ -17,13 +17,13 @@ class envInit(object):
         # return 
 
     def openBrowser(self,env='staging'):
-        self.initBrowser()
-        # if env == 'staging':
-        #     _url = 'https://vhsupply.staging.viewchain.net/#/login'
-        # elif env == 'test':
-        #     _url = 'https://vhsupply.test.viewchain.net/#/login'
-        # elif env == 'demo':
-        #     _url = 'https://vhsupply.demo.viewchain.net/#/login'
-        # browser.get(_url)
-        # browser.maximize_window()
-        # return browser
+        browser = self.initBrowser()
+        if env == 'staging':
+            _url = 'https://vhsupply.staging.viewchain.net/#/login'
+        elif env == 'test':
+            _url = 'https://vhsupply.test.viewchain.net/#/login'
+        elif env == 'demo':
+            _url = 'https://vhsupply.demo.viewchain.net/#/login'
+        browser.get(_url)
+        browser.maximize_window()
+        return browser
