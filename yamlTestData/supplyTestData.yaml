@@ -1,0 +1,8 @@
+supply_loginPage:
+    browser : chrome
+    env : staging
+    userName : zhangleyuan
+    password : zhangleyuan
+
+
+    
