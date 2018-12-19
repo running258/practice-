@@ -9,6 +9,7 @@
     "ele\\supply\\__pycache__": true,
     "conf\\__pycache__": true,
     ".pytest_cache": true,
-    "__pycache__": true
+    "__pycache__": true,
+    "common\\__pycache__": true
   }
 }
