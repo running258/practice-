@@ -1,0 +1,8 @@
+hospital_loginPage:
+    browser : chrome
+    env : staging
+    userName : cloudtest999
+    passWord : cloudtest999
+
+
+    

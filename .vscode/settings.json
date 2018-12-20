@@ -10,6 +10,9 @@
     "conf\\__pycache__": true,
     ".pytest_cache": true,
     "__pycache__": true,
-    "common\\__pycache__": true
+    "common\\__pycache__": true,
+    "ele\\__pycache__": true,
+    ".vscode": true,
+    "func\\supply\\__pycache__": true
   }
 }
