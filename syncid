@@ -1,6 +1,54 @@
-53f4ac2a9acb38e7de760e492d2cb635556fa5a5
-eb14efbd8fbc3ea735862a8feb0a2ee6
+b04b2212b59b5375592bc5b8e631a523a7a706fa
+edfc1a92d6cf75b63b19738c156fe34d
 GIST ID
 
-http://app1.sfda.gov.cn/datasearchcnda/face3/base.jsp?tableId=132&tableName=TABLE132&title=%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E7%94%9F%E4%BA%A7%E4%BC%81%E4%B8%9A%EF%BC%88%E8%AE%B8%E5%8F%AF%EF%BC%89&bcId=154209313929078698414236686309
+http://app1.sfda.gov.cn/datasearchcnda/face3/base.jsp?tableId=26&tableName=TABLE26&title=%B9%FA%B2%FA%C6%F7%D0%B5&bcId=152904417281669781044048234789
 
+https://segmentfault.com/a/1190000015563531
+
+
+
+CODE SETTINGS SYNC UPLOAD SUMMARY
+Version: 3.2.4
+--------------------
+GitHub Token: b04b2212b59b5375592bc5b8e631a523a7a706fa
+GitHub Gist: edfc1a92d6cf75b63b19738c156fe34d
+GitHub Gist Type: Secret
+
+Restarting Visual Studio Code may be required to apply color and file icon theme.
+--------------------
+Files Uploaded:
+  extensions.json > extensions.json
+  keybindings.json > keybindings.json
+  makeHidden.json > makeHidden.json
+  settings.json > settings.json
+
+Extensions Ignored:
+  No extensions ignored.
+
+Extensions Removed:
+  No extensions removed.
+
+Extensions Added:
+  Bookmarks v10.0.0
+  bracket-pair-colorizer v1.0.61
+  code-settings-sync v3.2.4
+  code-spell-checker v1.6.10
+  gitlens v9.2.2
+  make-hidden v2.3.3
+  material-icon-theme v3.6.2
+  open-in-browser v2.0.0
+  path-intellisense v1.4.2
+  project-manager v10.1.0
+  python v2018.12.1
+  python v0.2.3
+  rf-intellisense v2.2.1
+  robotf-extension v1.6.8
+  vscode-filesize v2.1.1
+  vscode-language-pack-zh-hans v1.30.2
+  vscode-python-test-adapter v0.2.4
+  vscode-test-explorer v2.3.0
+  vscode-todo-highlight v1.0.4
+  vscode-yaml v0.1.0
+--------------------
+Done.

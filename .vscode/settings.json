@@ -13,6 +13,8 @@
     "common\\__pycache__": true,
     "ele\\__pycache__": true,
     ".vscode": true,
-    "func\\supply\\__pycache__": true
+    "func\\supply\\__pycache__": true,
+    "mySpider\\mySpider\\__pycache__": true,
+    "mySpider\\mySpider\\spiders\\__pycache__": true
   }
 }
