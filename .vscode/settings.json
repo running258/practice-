@@ -15,6 +15,7 @@
     ".vscode": true,
     "func\\supply\\__pycache__": true,
     "mySpider\\mySpider\\__pycache__": true,
-    "mySpider\\mySpider\\spiders\\__pycache__": true
+    "mySpider\\mySpider\\spiders\\__pycache__": true,
+    "mnist\\__pycache__": true
   }
 }
