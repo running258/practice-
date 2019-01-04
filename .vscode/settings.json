@@ -4,6 +4,7 @@
   "python.unitTest.unittestEnabled": false,
   "python.unitTest.nosetestsEnabled": false,
   "python.unitTest.pyTestEnabled": true,
+  "python.linting.pylintEnabled": false,
   "files.exclude": {
     "__error": "Not found",
     "ele\\supply\\__pycache__": true,
@@ -12,7 +13,6 @@
     "__pycache__": true,
     "common\\__pycache__": true,
     "ele\\__pycache__": true,
-    ".vscode": true,
     "func\\supply\\__pycache__": true,
     "mySpider\\mySpider\\__pycache__": true,
     "mySpider\\mySpider\\spiders\\__pycache__": true,
