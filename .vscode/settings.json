@@ -16,6 +16,8 @@
     "func\\supply\\__pycache__": true,
     "mySpider\\mySpider\\__pycache__": true,
     "mySpider\\mySpider\\spiders\\__pycache__": true,
-    "mnist\\__pycache__": true
+    "mnist\\__pycache__": true,
+    "projects\\skeleton\\tests\\__pycache__": true,
+    "projects\\skeleton\\NAME\\__pycache__": true
   }
 }
