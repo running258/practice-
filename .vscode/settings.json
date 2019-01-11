@@ -18,6 +18,8 @@
     "mySpider\\mySpider\\spiders\\__pycache__": true,
     "mnist\\__pycache__": true,
     "projects\\skeleton\\tests\\__pycache__": true,
-    "projects\\skeleton\\NAME\\__pycache__": true
+    "projects\\skeleton\\NAME\\__pycache__": true,
+    "interface\\tests\\__pycache__": true,
+    "interface\\interface\\__pycache__": true
   }
 }
