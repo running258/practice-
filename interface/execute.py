@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 
-from interface.supplyLogin import supplyLogin
+from interface.supplyLogin import supplyInit
 
 app = Flask(__name__)
 
@@ -12,7 +12,8 @@ def index():
 def login():
     userName = request.form['userName']
     passWord = request.form['passWord']
-    authorization = supplyLogin(userName,passWord)
+    login = supplyInit()
+    authorization = login.supplyLogin(userName,passWord)
     print(authorization)
     return authorization
     # if request.method == "POST":
