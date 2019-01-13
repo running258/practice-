@@ -16,11 +16,6 @@ def login():
     authorization = login.supplyLogin(userName,passWord)
     print(authorization)
     return authorization
-    # if request.method == "POST":
-    #     email = request.form['email']
-    #     return render_template("success.html", email = email)
-    # else:
-    #     pass
 
 if __name__ == "__main__":
     app.run()
