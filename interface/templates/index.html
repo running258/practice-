@@ -5,12 +5,15 @@
     <title>Home Page</title>
 </head>
 <body>
-    <h1>Welcome to the Flask Tutorial</h1>
-    <h4>Please Register to Get the tutorials</h4>
     <form method = "POST" action="/login">
-        <input type="text" name="userName" placeholder="supply userName">
-        <br><br>
-        <input type="password" name="passWord" placeholder="Password">
+        <select>
+            <option value="staging" default>staging</option>
+            <option value="test">test</option>
+            <option value="demo">demo</option>
+        </select><br>
+        <input type="text" name="userName" placeholder="login"><br>
+        <input type="password" name="passWord" placeholder="Password"><br>
+        <input type="text" name="route" placeholder="route"><br>
         <input type="submit" value="Submit" name="ok">
     </form>
 </body>
